@@ -120,11 +120,15 @@ a.nav-pills {
 .bgr {
     background-color:#683142;
 }
-
+.btn-primary{
+    background-color:#683142;
+}
+.display-2 {
+    color:#683142;
+}
 .btn-block a{
     color: white;
 }
-
 .custom-select:focus {
     border:solid #683142 2pt !important;
     box-shadow: none !important;
@@ -150,15 +154,11 @@ a.nav-pills {
     padding-right: 0px !important;
 }
 
-.btn-primary{
-    background-color:#683142;
-}
-.display-2 {
-    color:#683142;
+
 }
 @media (max-width: 575px) {
     .display-2 {
     font-size: 50px;
     }
-   }
+}
 
