@@ -1,5 +1,23 @@
-<nav class="navbar fixed-bottom navbar-light bg-light">
+<nav class="navbar navbar-light bg-light">
+<!-- Show styleguide index.html if value is true in config.yml -->
 {%- if site.show-style-guide %}
     <a href="{{ site.baseurl }}{% link style-guide/index.md %}" class="btn">Style Guide</a>
 {%- endif %}
 </nav>
+<div class="footer">
+    
+    <div class="container">
+            <div class="text-center">
+                <br />
+                    <a href="{{ site.baseurl }}{% link pages/index.html %}" class="social">Home</a>
+                    <a href="https://www.facebook.com/thib"><i class="fa fa-facebook-square fa-2x social"></i></a>
+                    <a href="https://soundcloud.com/snelstappers"> <i class="fa fa-soundcloud fa-2x social"></i></a>
+                    <a href="https://instagram.com/duperonthewall"> <i class="fa fa-instagram fa-2x social"></i></a>
+                    <a href="https://plus.google.com/snelstappers"> <i class="fa fa-google-plus-square fa-2x social"></i></a>
+                    
+                            
+                          
+            </div>
+        <hr />
+    </div>
+</div>

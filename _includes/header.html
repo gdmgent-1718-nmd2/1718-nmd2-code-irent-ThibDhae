@@ -1,0 +1,31 @@
+<!-- Basic navbar -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<header class="navbar navbar-expand-md navbar-dark fixed-top">
+	<nav class="navbar">
+		<a href="{{ site.baseurl }}{% link pages/index.html %}"><img src="{{ site.baseurl }}{% link assets/images/png/logo.png %}"></a>
+	</nav>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	<!-- Navigation pre-test -->
+	<!-- Filter pages for us in navigation -->
+	{% assign nodes = site.pages | where: 'nav', 'active' | sort: 'index' %}
+
+	<!-- Test to see if array get any results -->
+	<!--<pre>{{ nodes | inspect }}</pre>-->
+
+	<!-- Result -->
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	<nav class="nav navbar-expand-md nav-pills navbar-nav mr-auto">
+	    {% for node in nodes %}
+	        {% assign is_active = false %}
+	        {% if node.url == page.url %}
+	            {% assign is_active = true %}
+	        {% endif %}
+		<div class="nav-item">
+			<a class="nav-link{% if is_active %} active{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}</a>
+		</div>
+	    {% endfor %}
+	</nav>
+</div>
+</header>

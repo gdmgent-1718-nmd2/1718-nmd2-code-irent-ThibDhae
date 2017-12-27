@@ -33,6 +33,6 @@ PS> git init
 PS> git submodule add --branch v4-dev --depth 1 https://github.com/twbs/bootstrap/ _vendor/bootstrap
 ```
 
-### Voorbeeldsite
+### Mijn GIT webadres
 
-<http://www.gdm.gent/1718-nmd2-code-irent/>
+<http://127.0.0.1:40001718-nmd2-code-irent-ThibDhae/>
