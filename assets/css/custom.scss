@@ -113,6 +113,9 @@ a.nav-pills {
 .marge {
     margin-top: 20px;
 }
+.margee {
+    margin-top: 50px;
+}
 
 .bgr {
     background-color:#683142;
@@ -130,8 +133,32 @@ a.nav-pills {
     border:solid #683142 2pt !important;
     box-shadow: none !important;
 }
+.jumbotron {
+    padding-top: 105px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 
 @media (max-width: 575px) {
-    .jumbotron {padding: 40px 0px 0px 0px;
+    .jumbotron {padding: 100px 0px 0px 0px;
     }
    }
+
+.jumbotron .col-md-12 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.btn-primary{
+    background-color:#683142;
+}
+.display-2 {
+    color:#683142;
+}
+@media (max-width: 575px) {
+    .display-2 {
+    font-size: 50px;
+    }
+   }
+
