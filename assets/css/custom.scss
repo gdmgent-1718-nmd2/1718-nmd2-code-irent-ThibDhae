@@ -39,25 +39,25 @@ a.nav-link.active{
 }
 
 .blockquote-footer {
-color: 	#fff5ee;
+    color: 	#fff5ee;
 }
 
 .lg {
-background-color: #313842;
-max-height: auto;
+    background-color: #313842;
+    max-height: auto;
 }
 .bericht {
-overflow: hidden;
+    overflow: hidden;
 }
 .shopform {
-padding-top: 3%
+    padding-top: 3%
 }
 .paddingfix{
-padding-left:15px;
-padding-right:15px;
+    padding-left:15px;
+    padding-right:15px;
 }
 .custom-select:focus{
-border-color: #683142;
+    border-color: #683142;
 }
 .mapresponsive{
     overflow:hidden;
@@ -123,7 +123,7 @@ a.nav-pills {
 @media (max-width: 575px) {
     .jumbotron {padding: 100px 0px 0px 0px;
     }
-   }
+}
 
 .jumbotron .col-md-12 {
     padding-left: 0px !important;
@@ -147,7 +147,7 @@ color: #683142;
 .list-group-item-danger{
     background-color: #683142;
     color: white;
-    }
+}
 a{
 color: white;
 }
@@ -160,29 +160,27 @@ color: #683142;
 .btn-block a{
     color: white;
 }
-.custom-select:focus {
+.custom-select:focus{
     border:solid #683142 2pt !important;
     box-shadow: none !important;
 }
-.form-control:focus {
+.form-control:focus{
     border:solid #683142 2pt !important;
     box-shadow: none !important;
 }
-a.btn:hover 
-{
+a.btn:hover{
 color:#683142;
 }
 
-.btn:hover a
-{
+.btn:hover a{
 color:#683142;
 }
-.btn:hover {
+.btn:hover{
     box-shadow: none;
     background-color:white;
     border:solid #683142 2pt;
 }
-.btn-primary:hover {
+.btn-primary:hover{
     box-shadow:none;
     background-color:white;
     border:solid #683142 2pt;
