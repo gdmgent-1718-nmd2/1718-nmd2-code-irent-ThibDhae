@@ -7,18 +7,6 @@
 p {
     font-size: 10pt;
 }
-
-.imgtext{
-    width:100%; 
-}
-
-.txtoverimg{
-    position:relative; 
-    padding:10px 20px; 
-    width:100%; 
-    text-align:center;
-}
-
 header{
     background-color: #683142;
 }
@@ -120,23 +108,11 @@ a.nav-pills {
 .bgr {
     background-color:#683142;
 }
-.btn-primary{
-    background-color:#683142;
-}
+
 .display-2 {
     color:#683142;
 }
-.btn-block a{
-    color: white;
-}
-.custom-select:focus {
-    border:solid #683142 2pt !important;
-    box-shadow: none !important;
-}
-.form-control:focus {
-    border:solid #683142 2pt !important;
-    box-shadow: none !important;
-}
+
 .jumbotron {
     padding-top: 105px;
     padding-left: 0px;
@@ -160,3 +136,57 @@ a.nav-pills {
     }
 }
 
+.artvfooter {
+display: inline;
+color:white;
+}
+.list-group-item{
+background-color: white;
+color: #683142;
+}
+.list-group-item-danger{
+    background-color: #683142;
+    color: white;
+    }
+a{
+color: white;
+}
+.card a{
+color: #683142;
+}
+.btn-primary{
+    background-color:#683142;
+}
+.btn-block a{
+    color: white;
+}
+.custom-select:focus {
+    border:solid #683142 2pt !important;
+    box-shadow: none !important;
+}
+.form-control:focus {
+    border:solid #683142 2pt !important;
+    box-shadow: none !important;
+}
+a.btn:hover 
+{
+color:#683142;
+}
+
+.btn:hover a
+{
+color:#683142;
+}
+.btn:hover {
+    box-shadow: none;
+    background-color:white;
+    border:solid #683142 2pt;
+}
+.btn-primary:hover {
+    box-shadow:none;
+    background-color:white;
+    border:solid #683142 2pt;
+}
+a.btn-primary{
+    color:white;
+}
